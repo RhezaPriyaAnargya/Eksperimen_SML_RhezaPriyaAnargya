@@ -33,6 +33,6 @@ def save(df, path):
     df.to_csv(path, index=False)
 
 if __name__ == "__main__":
-    df = load_data("../namadataset_raw/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+    df = load_data("namadataset_raw/WA_Fn-UseC_-Telco-Customer-Churn.csv")
     df_clean = preprocess(df)
-    save(df_clean, "../namadataset_preprocessing/telco_preprocessed.csv")
+    save(df_clean, "namadataset_preprocessing/telco_preprocessed.csv")
