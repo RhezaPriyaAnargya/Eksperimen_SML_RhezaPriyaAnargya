@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 
@@ -7,11 +8,11 @@ def load_data(path):
 
 def preprocess(df):
     df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce")
-    df["TotalCharges"].fillna(df["TotalCharges"].median(), inplace=True)
-    df.drop(columns=["customerID"], inplace=True)
+    df["TotalCharges"] = df["TotalCharges"].fillna(df["TotalCharges"].median())
+    df = df.drop(columns=["customerID"])
 
     X = df.drop("Churn", axis=1)
-    y = df["Churn"].map({"Yes":1, "No":0})
+    y = df["Churn"].map({"Yes": 1, "No": 0})
 
     cat_cols = X.select_dtypes(include="object").columns
     num_cols = X.select_dtypes(exclude="object").columns
@@ -30,6 +31,7 @@ def preprocess(df):
     return df_out
 
 def save(df, path):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     df.to_csv(path, index=False)
 
 if __name__ == "__main__":
