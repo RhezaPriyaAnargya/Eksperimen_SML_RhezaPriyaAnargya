@@ -1,0 +1,10 @@
+artifact_location: file:///D:/1.%20UNIV/ASAH/Submission/Membangun%20sistem%20machine%20learning/Membangun_model/mlruns/135025068665246024/models/m-214aac6ef67443f19fe9602df8378d0d/artifacts
+creation_timestamp: 1766035315571
+experiment_id: '135025068665246024'
+last_updated_timestamp: 1766035321184
+model_id: m-214aac6ef67443f19fe9602df8378d0d
+model_type: null
+name: model
+source_run_id: 3d096979bd6746b29312cf9665fe6afe
+status: 2
+status_message: null

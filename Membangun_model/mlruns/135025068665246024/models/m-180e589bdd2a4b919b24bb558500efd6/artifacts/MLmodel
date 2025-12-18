@@ -1,0 +1,22 @@
+artifact_path: file:///D:/1.%20UNIV/ASAH/Submission/Membangun%20sistem%20machine%20learning/Membangun_model/mlruns/135025068665246024/models/m-180e589bdd2a4b919b24bb558500efd6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.6.0
+model_id: m-180e589bdd2a4b919b24bb558500efd6
+model_size_bytes: 1381
+model_uuid: m-180e589bdd2a4b919b24bb558500efd6
+prompts: null
+run_id: 43601c6d51a748a9b844adc6cdd27ea8
+utc_time_created: '2025-12-18 05:21:44.013438'
