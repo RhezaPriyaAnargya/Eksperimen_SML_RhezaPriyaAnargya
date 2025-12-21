@@ -1,0 +1,15 @@
+creation_timestamp: 1766316946643
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1766316946643
+model_id: m-bd916b7c9c5a455d8b2b5582a64080eb
+name: Telco-Churn-Model
+run_id: e7ecb9642f9149a39749959ccf5c5906
+run_link: null
+source: models:/m-bd916b7c9c5a455d8b2b5582a64080eb
+status: READY
+status_message: null
+storage_location: file:///D:/1.%20UNIV/ASAH/Submission/Membangun%20sistem%20machine%20learning/Membangun_model/mlruns/490725850417664574/models/m-bd916b7c9c5a455d8b2b5582a64080eb/artifacts
+user_id: null
+version: 1

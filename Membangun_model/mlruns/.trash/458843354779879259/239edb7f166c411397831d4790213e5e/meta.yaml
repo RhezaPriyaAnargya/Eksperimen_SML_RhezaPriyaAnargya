@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/1.%20UNIV/ASAH/Submission/Membangun%20sistem%20machine%20learning/Membangun_model/mlruns/458843354779879259/239edb7f166c411397831d4790213e5e/artifacts
+deleted_time: 1766320769567
+end_time: 1766317648293
+entry_point_name: ''
+experiment_id: '458843354779879259'
+lifecycle_stage: deleted
+run_id: 239edb7f166c411397831d4790213e5e
+run_name: logistic_regression_model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766317628024
+status: 3
+tags: []
+user_id: Lenovo
